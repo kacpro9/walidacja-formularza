@@ -1,0 +1,13 @@
+form#newsletter {
+    background-color: cadetblue;
+    color: blanchedalmond;
+    padding: 60px;
+}
+
+input, label {
+   display: inline-block;
+}
+input[type='text'], input[type='email'] {
+    height: 20px;
+    width: 100%;
+}

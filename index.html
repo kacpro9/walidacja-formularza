@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <form action="" id="newsletter">
+
+        <ul id="errors"></ul>
+
+        <label for="name">Imie i nazwisko:</label>
+        <input type="text" name="name" id="name"> <br>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" name="email" id="email"> <br>
+
+        <input type="checkbox" name="agreement-1" id="agreement-1">
+        <label for="agreement-1">Wyrazam zgodę marketingową nr.1</label> <br>
+
+        <input type="checkbox" name="agreement-2" id="agreement-2">
+        <label for="agreement-2">Wyrazam zgodę marketingową nr.2</label> <br>
+
+        <input type="checkbox" name="agreement-all" id="agreement-all">
+        <label for="agreement-all">Wyrazam wszystkie zgody marketingowe</label> <br>
+
+
+        <button type="submit" id="sign-up">Wyślij!</button>
+
+    </form>
+
     <script src="js/script.js"></script>
 </body>
+
 </html>
